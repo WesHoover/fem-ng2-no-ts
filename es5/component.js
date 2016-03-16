@@ -10,6 +10,9 @@
     viewProviders: [MyService]
   })
   .Class({ /* capital C here on Class */
+    // injectable services are available here
+    // like Angular 1, we use the array to annotate
+    // our dependencies
     constructor: [MyService, function(myService) {
 
     }]

@@ -8,6 +8,7 @@ import { MyService } from './myService';
   template: `<div class="app"></div>`,
 })
 export class App {
+  // override the parameters for DI
   static get parameters() {
     return [[MyService]];
   }

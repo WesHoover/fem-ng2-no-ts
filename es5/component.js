@@ -18,6 +18,7 @@
     }]
   });
 
+  // bootstrap the root component
   document.addEventListener('DOMContentLoaded', function() {
     ng.platform.browser.bootstrap(app.RootComponent);
   });
